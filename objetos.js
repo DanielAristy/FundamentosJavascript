@@ -13,11 +13,9 @@ function imprimirNombreYEdad(persona){
 
 imprimirNombreYEdad(persona)
 
-
 /**Creando objetos a partir de otros
  * copiando los datos del objeto anterior
 */
-
 function cumpleaños(persona){
     return{
         ...persona,
